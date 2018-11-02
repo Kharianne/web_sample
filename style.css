@@ -1,0 +1,24 @@
+body {
+  background-color: grey;
+  margin: 0; /*starts menu on top of page*/
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /*Allows show background if elements floating*/
+    background-color: #333;
+
+}
+
+.menu li {
+  float: left;
+  color: gold;
+  padding: 14px 16px;
+}
+
+ .menu a {
+     text-decoration: none;
+     color: gold;
+ }
