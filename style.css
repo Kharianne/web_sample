@@ -45,11 +45,11 @@ ul.menu {
  }
 
  .menu a:hover:not(.active) {
-   background: #354468;
+   background-color: #354468;
  }
 
-.active {
-  background: #354468;
+.menu a:active {
+  background-color: #354467;
 }
 
 .left-side {
