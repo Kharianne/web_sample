@@ -12,6 +12,15 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
+/* Responsivní změna velikosti obrázku*/
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.mobile-hidden {
+  display: none
+}
 
 /*"Čištění po jednotlivých řádcích"*/
 .row::after {
@@ -38,19 +47,16 @@ ul.menu {
 .menu a {
   float: left;
   text-decoration: none;
-  color: #33c435;
+  color: #763299;
   padding: 14px 16px;
   font-family: 'Oswald', sans-serif;
   font-weight: bold;
  }
 
- .menu a:hover:not(.active) {
+
+.menu a:hover{
    background-color: #354468;
  }
-
-.menu a:active {
-  background-color: #354467;
-}
 
 .left-side {
   font-size: 13px;
@@ -109,6 +115,14 @@ ul.menu {
     .content {
       margin-left: 10px;
       margin-right: 20px;
+    }
+
+    .large-screen-hidden {
+      display: none;
+    }
+
+    .mobile-hidden {
+      display: inherit;
     }
 }
 @media only screen and (min-width: 768px) {
